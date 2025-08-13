@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+body {
+    background-image: radial-gradient(circle, white 0.1px, transparent 1px); 
+    background-size: 50px 50px;
+    background-color: #242424;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    
+}
+
+.bg-dots {
+    background-color: #0a0a0a;
+    background-image: radial-gradient(#444 0.5px, transparent 0.5px);
+    background-size: 20px 20px;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  .float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .spin-slow {
+    animation: spin 20s linear infinite;
+  }
+  
+  .spin-reverse {
+    animation: spin 25s linear infinite reverse;
+  }
+  
+
