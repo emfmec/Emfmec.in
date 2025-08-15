@@ -1,3 +1,5 @@
+
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 export default function Nav() {
@@ -8,12 +10,13 @@ export default function Nav() {
   };
 
   const navItems = [
-    { name: 'Home', href: '#' },
-    { name: 'About', href: '#' },
-    { name: 'Team', href: '#' },
-    { name: 'Gallery', href: '#' },
-    { name: 'Events', href: '#' }
+    { name: 'Home', to: '/' },
+    { name: 'About', to: '/about' },
+    { name: 'Team', to: '/team' },
+    { name: 'Gallery', to: '/gallery' },
+    { name: 'Events', to: '/events' }
   ];
+  
 
   return (
     <header className="bg-[#242424] font-['Special Gothic Expanded One'] sticky top-0 z-50">

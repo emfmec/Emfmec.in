@@ -14,26 +14,6 @@ body {
     background-size: 20px 20px;
   }
   
-  @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-  }
-  
-  @keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-  }
-  
-  .float {
-    animation: float 3s ease-in-out infinite;
-  }
-  
-  .spin-slow {
-    animation: spin 20s linear infinite;
-  }
-  
-  .spin-reverse {
-    animation: spin 25s linear infinite reverse;
-  }
+ 
   
 
