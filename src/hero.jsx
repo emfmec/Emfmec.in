@@ -55,12 +55,16 @@ function InfiniteRow({ images, reverse = false, speed = 30, y = 0, imgH = "30vh"
     >
       {[...images, ...images].map((src, i) => (
         <img
-          key={i}
-          src={src}
-          alt={`gallery-${i}`}
-          style={{ width: imgW, height: imgH }}
-          className="object-cover rounded-lg opacity-50 hover:opacity-100 transition-opacity duration-300 mx-2" // ultra small gap
-        />
+        key={i}
+        src={src}
+        alt={`gallery-${i}`}
+        className="
+          object-cover rounded-lg opacity-50 hover:opacity-100 transition-opacity duration-300 mx-2
+          w-[41vw] h-[30vh]   // mobile: wider & shorter
+          sm:w-[20vw] sm:h-[30vh] // desktop: original ratio
+        "
+      />
+      
       ))}
     </div>
   );
@@ -99,7 +103,7 @@ export default function Hero() {
           Be part of something amazing — creative projects, exciting challenges, and Workshops.
         </p>
         <button className="mt-4 px-4 py-2 sm:px-6 sm:py-3 text-base sm:text-lg md:text-xl font-semibold rounded-full bg-white text-[#242424] shadow-lg hover:bg-[#ffbf00] hover:text-white hover:scale-105 transition-transform duration-300">
-          Join Now
+          <a target="_blank_" href=" https://whatsapp.com/channel/0029Vb6Tn4FICVfnU3uU4Q1u">Join Now</a>
         </button>
       </div>
     </section>

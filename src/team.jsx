@@ -135,13 +135,13 @@ export default function Team() {
     ];
   
     return (
-      <section className="team w-full h-auto">
+      <section className="team w-full h-auto px-4">
         <div className="max-w-6xl mx-auto mt-20">
-          <h1 className="text-5xl text-white font-bold mb-4 flex justify-center items-center">
+          <h1 className="text-3xl sm:text-5xl text-white font-bold mb-8 flex justify-center items-center text-center">
             EMF Core Team
           </h1>
-  
-          <div className="pt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-white">
+    
+          <div className="pt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 sm:gap-8 text-white">
             {members.map((member, index) => (
               <div
                 key={index}
@@ -150,15 +150,16 @@ export default function Team() {
                 <img
                   src={member.img}
                   alt={member.name}
-                  className="w-24 h-24 mx-auto rounded-full object-cover"
+                  className="w-20 h-20 sm:w-24 sm:h-24 mx-auto rounded-full object-cover"
                 />
-                <h3 className="mt-4 text-lg font-semibold">{member.role}</h3>
-                <p className="text-sm text-gray-400">{member.name}</p>
+                <h3 className="mt-4 text-sm sm:text-lg font-semibold">{member.role}</h3>
+                <p className="text-xs sm:text-sm text-gray-400">{member.name}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
     );
+    
   }
   

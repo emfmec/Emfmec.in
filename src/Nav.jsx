@@ -61,7 +61,7 @@ export default function Nav() {
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="text-white focus:outline-none"
           >
-            <i className="fa-solid fa-bars text-2xl"></i>
+            <i className="fa-solid fa-bars text-2xl pr-5"></i>
           </button>
         </div>
 
