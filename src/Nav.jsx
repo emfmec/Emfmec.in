@@ -43,7 +43,7 @@ export default function Nav() {
               <img
                 src="/logo.png"
                 alt="E M F Logo"
-                className="w-[140px] h-auto"
+                className="w-[135px] sm:w-[140px] h-auto pr-2 sm:pr-0"
                 onError={(e) => {
                   e.target.style.display = "none";
                   e.target.nextSibling.style.display = "block";
