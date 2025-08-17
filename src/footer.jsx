@@ -26,7 +26,7 @@ function Footer() {
                 <i className="fab fa-instagram"></i>
               </a>
               <a
-                href=""
+                href="https://www.linkedin.com/company/emf-mec/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#fbf1c7] text-base sm:text-lg md:text-xl"
@@ -46,7 +46,7 @@ function Footer() {
           {/* Contact Section */}
           <div className="text-center md:text-left w-full md:w-auto">
             <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-[#fbf1c7] mb-2">Contact</h2>
-            <p className="text-xs sm:text-sm md:text-base">Ruben V Pulayath: +91 8075710568</p>
+            <p className="text-xs sm:text-sm md:text-base">Sebin: +91 9895685103</p>
             <p className="text-xs sm:text-sm md:text-base">Contact us at: support@emfclub.com</p>
           </div>
         </div>
