@@ -88,15 +88,17 @@ export default function Hero() {
       />
 
       {/* Text in center */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center z-20 text-white text-center">
-        <h1 className="text-8xl font-bold mb-4">
+      <div className="absolute inset-0 flex flex-col items-center justify-center z-20 text-white text-center px-4">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold leading-tight mb-4">
           We <span className="text-[#FFBF00]">Setup</span>,<br />
-          <span>We Transform<span className="text-[#ffbf00]">.</span></span>
+          <span>
+            We Transform<span className="text-[#ffbf00]">.</span>
+          </span>
         </h1>
-        <p className="text-lg max-w-xl">
+        <p className="text-sm sm:text-base md:text-lg max-w-md sm:max-w-xl">
           Be part of something amazing — creative projects, exciting challenges, and Workshops.
         </p>
-        <button className="mt-2 px-6 py-3 text-xl font-semibold rounded-full bg-white text-[#242424] shadow-lg hover:bg-[#ffbf00] hover:text-white hover:scale-105 transition-transform duration-300">
+        <button className="mt-4 px-4 py-2 sm:px-6 sm:py-3 text-base sm:text-lg md:text-xl font-semibold rounded-full bg-white text-[#242424] shadow-lg hover:bg-[#ffbf00] hover:text-white hover:scale-105 transition-transform duration-300">
           Join Now
         </button>
       </div>

@@ -18,7 +18,7 @@ function Event() {
             <div className="bg-[#262626] rounded-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <div className="bg-gray-700 relative">
                 <img
-                  src="assets/TECHFUSION4.4.png"
+                  src="/TECHFUSION4.4.png"
                   alt="Tech Fusion 2.0"
                   className="w-full object-contain min-h-48 sm:min-h-56 md:min-h-64"
                 />
@@ -37,7 +37,7 @@ function Event() {
             <div className="bg-[#262626] rounded-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <div className="bg-gray-700 relative">
                 <img
-                  src="assets/lumiere.jpeg"
+                  src="/lumiere.jpeg"
                   alt="Lumiere"
                   className="w-full object-contain min-h-48 sm:min-h-56 md:min-h-64"
                 />
@@ -55,7 +55,7 @@ function Event() {
             <div className="bg-[#262626] rounded-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <div className="bg-gray-700 relative">
                 <img
-                  src="assets/autocad_resized.jpg"
+                  src="/autocad_resized.jpg"
                   alt="AutoCAD Workshop"
                   className="w-full object-contain min-h-48 sm:min-h-56 md:min-h-64"
                 />

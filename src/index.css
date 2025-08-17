@@ -12,8 +12,10 @@ body {
     background-color: #0a0a0a;
     background-image: radial-gradient(#444 0.5px, transparent 0.5px);
     background-size: 20px 20px;
-  }
+}
   
  
-  
+html {
+    scroll-behavior: smooth;
+  }
 

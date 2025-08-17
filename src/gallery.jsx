@@ -16,9 +16,9 @@ function Gallery() {
         <div id="gallery" className="container mx-auto px-4 py--10 max-w-5xl">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-3 md:gap-4 mb-4">
             {[
-              { src: "gallery/emf gallery11.jpg", alt: "photo 1" },
-              { src: "gallery/emf gallery1.jpg", alt: "photo 2" },
-              { src: "gallery/emf gallery12.jpg", alt: "photo 3" },
+              { src: "/magazine.jpg", alt: "photo 1" },
+              { src: "/gallery1.jpg", alt: "photo 2" },
+              { src: "/gallery2.jpg", alt: "photo 3" },
               { src: "https://fossmec.netlify.app/images/gallery1.jpg", alt: "photo 4" }
             ].map((img, i) => (
               <div key={i} className="overflow-hidden rounded-lg shadow-md">
@@ -34,7 +34,7 @@ function Gallery() {
   
           <div className="overflow-hidden rounded-lg shadow-lg">
             <img
-              src="gallery/cial.jpg"
+              src="/cial.jpg"
               alt="group photo"
               className="w-full h-64 sm:h-80 md:h-96 object-cover grayscale hover:grayscale-0
                 transition-all duration-500 ease-in-out transform hover:scale-105"
